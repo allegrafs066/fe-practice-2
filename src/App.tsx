@@ -1,4 +1,5 @@
 import "./App.css";
+import Card from "./components/Card";
 
 function App() {
   return (
@@ -7,24 +8,7 @@ function App() {
         <h1 className="fixed top-0 left-0">BACKSTAGE TALKS</h1>
         <h2 className="fixed top-0 right-0">info@backstagetalks.com</h2>
       </header>
-      <div className="bg-[#e30512]">
-        <img
-          src="https://backstagetalks.com/img/backstagetalks_cover_issue_7.png"
-          alt=""
-        />
-        <p>Issue #7</p>
-        <div>
-          <p>
-            <a href="">BUY HERE</a> (Europe)
-          </p>
-          <p>
-            <a href="">BUY HERE</a> (UK & Overseas)
-          </p>
-          <p>
-            or in <a href="">selected stores</a>
-          </p>
-        </div>
-      </div>
+      <Card />
       <article className="fixed bottom-0 left-0 w-56">
         <p className="font-bold">
           Backstage Talks is a magazine of casual, but in depth dialogues on
